@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_akuma_sfv"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.metalgear.komboaid.activities.AkumaSFV"
+    tools:showIn="@layout/activity_akuma_sfv">
+
+    <TextView
+        android:id="@+id/character_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/title_activity_akuma"
+        android:textColor="#ffffff"
+        android:textSize="12pt"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        android:text="@string/stats_text"
+        android:textColor="#000000"
+        android:textSize="12pt"
+        android:textAlignment="center"/>
+
+    <TableLayout
+        android:background="#ff0000"
+        android:id="@+id/stats_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/stats_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/stamina_text"
+                android:text="@string/stamina_text"
+                android:textColor="#000000"
+                android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                android:paddingEnd="40dp"
+                android:paddingRight="40dp"/>
+            <TextView
+                android:id="@+id/stamina_stat_text"
+                android:text="###"
+                android:textColor="#000000"
+                android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                android:paddingEnd="80dp"
+                android:paddingRight="80dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/stun_text"
+                android:text="@string/stun_text"
+                android:textColor="#000000"
+                android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                android:paddingEnd="40dp"
+                android:paddingRight="40dp"/>
+            <TextView
+                android:id="@+id/stun_stat_text"
+                android:text="###"
+                android:textColor="#000000"
+                android:paddingStart="3dp"
+                android:paddingLeft="3dp"
+                android:paddingEnd="80dp"
+                android:paddingRight="80dp"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tier_rank_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+
+            <TextView
+                android:id="@+id/tier_rank_text"
+                android:text="@string/rank_text"
+                android:textColor="#000000"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"/>
+            <TextView
+                android:id="@+id/tier_ranking"
+                android:text="###"
+                android:textColor="#000000"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/empty_block"
+                android:text=""
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"/>
+
+            <TextView
+                android:id="@+id/tier_list_link"
+                android:text="@string/tierlist_text"
+                android:textColor="#000000"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/move_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.metalgear.komboaid.fragments.sfv.ChunLiMatchUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/matchup_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/table_title"
+            android:text="Chun Li"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif"
+            android:textSize="8pt"/>
+
+        <TableLayout
+            android:id="@+id/match_up_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" ></TableLayout>
+    </LinearLayout>
+
+</FrameLayout>

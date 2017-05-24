@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.metalgear.komboaid.fragments.SfvCharactersFragment">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Akuma"
+            android:id="@+id/akuma_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:id="@+id/alex_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balrog"
+            android:id="@+id/balrog_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Birdie"
+            android:id="@+id/birdie_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cammy"
+            android:id="@+id/cammy_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chun-Li"
+            android:id="@+id/chunli_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhalism"
+            android:id="@+id/dhalism_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fang"
+            android:id="@+id/fang_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guile"
+            android:id="@+id/guile_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ibuki"
+            android:id="@+id/ibuki_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Juri"
+            android:id="@+id/juri_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Karin"
+            android:id="@+id/karin_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ken"
+            android:id="@+id/ken_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kolin"
+            android:id="@+id/kolin_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Laura"
+            android:id="@+id/laura_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="M. Bison"
+            android:id="@+id/bison_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nash"
+            android:id="@+id/nash_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Necalli"
+            android:id="@+id/necal_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rashid"
+            android:id="@+id/rashid_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R. Mika"
+            android:id="@+id/mika_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ryu"
+            android:id="@+id/ryu_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urien"
+            android:id="@+id/urien_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vega"
+            android:id="@+id/vega_button"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zangief"
+            android:id="@+id/zang_button"
+            tools:ignore="HardcodedText" />
+
+</LinearLayout>
